@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             erros.push('O assunto deve ter pelo menos 5 caracteres.');
         }
 
-        if (mensagem.length < 2) {
+        if (mensagem.length < 20) {
             erros.push('A mensagem deve ter pelo menos 2 caracteres. (pelo menos um oi ne)');
         }
 
